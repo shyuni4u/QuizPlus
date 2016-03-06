@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC
+	"-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+	"http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+	<icon></icon>
+
+	<display-name></display-name>
+
+	<description></description>
+
+	<distributable></distributable>
+	
+	<servlet>
+		<servlet-name>apiLoadChapter</servlet-name>
+		<servlet-class>api.LoadChapterList</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>apiLoadQuestion</servlet-name>
+		<servlet-class>api.LoadQuestionList</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>apiLoadSolution</servlet-name>
+		<servlet-class>api.LoadSolutionList</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>apiInsertAnswerSheet</servlet-name>
+		<servlet-class>api.InsertAnswerSheet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>apiLoadChapter</servlet-name>
+		<url-pattern>/load/chapter</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>apiLoadQuestion</servlet-name>
+		<url-pattern>/load/question</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>apiLoadSolution</servlet-name>
+		<url-pattern>/load/solution</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>apiInsertAnswerSheet</servlet-name>
+		<url-pattern>/add/answer</url-pattern>
+	</servlet-mapping>
+
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+
+	<welcome-file-list>
+		<welcome-file>/</welcome-file>
+	</welcome-file-list>
+
+	<login-config></login-config>
+</web-app>

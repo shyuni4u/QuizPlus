@@ -1,0 +1,85 @@
+	
+	.hide { display: none; }
+	.show { display: block; }
+	
+	#student_id {
+		margin-top: 100px;
+	}
+	
+	#go_list {
+		text-align: center;
+	}
+	
+	.li-btn {
+		position: absolute;
+		top: 44%;
+		right: 80px;
+		margin-top: -9px;
+		padding: 8px;
+		font-family: Helvetica, Arial, sans-serif;
+		text-decoration: none;
+		font-size: 11px;
+		font-weight: bold;
+		-moz-border-radius: .7em;
+		-webkit-border-radius: .7em;
+		border-radius: .7em;
+	}
+	
+	.li-btn-ok {
+		border: 1px solid #CCC;
+		color: #222;
+		text-shadow: 0 1px 0 white;
+		background: #EEE;
+		background-image: -webkit-linear-gradient( white , #F1F1F1 );
+		background-image: -moz-linear-gradient( white , #F1F1F1 );
+		background-image: -ms-linear-gradient( white , #F1F1F1 );
+		background-image: -o-linear-gradient( white , #F1F1F1 );
+		background-image: linear-gradient( white , #F1F1F1 );
+	}
+	
+	.li-btn-fin {
+		border: 1px solid blue;
+		color: blue;
+		text-shadow: 0 1px 0 white;
+		background: #EEE;
+		background-image: -webkit-linear-gradient( white , #F1F1F1 );
+		background-image: -moz-linear-gradient( white , #F1F1F1 );
+		background-image: -ms-linear-gradient( white , #F1F1F1 );
+		background-image: -o-linear-gradient( white , #F1F1F1 );
+		background-image: linear-gradient( white , #F1F1F1 );
+	}
+	
+	.li-btn-cc {
+		border: 1px solid red;
+		color: red;
+		text-shadow: 0 1px 0 white;
+		background: #EEE;
+		background-image: -webkit-linear-gradient( pink , #F1F1F1 );
+		background-image: -moz-linear-gradient( pink , #F1F1F1 );
+		background-image: -ms-linear-gradient( pink , #F1F1F1 );
+		background-image: -o-linear-gradient( pink , #F1F1F1 );
+		background-image: linear-gradient( pink , #F1F1F1 );
+	}
+	
+	.li-btn-two {
+		right: 140px;
+	}
+	
+	.li-sc {
+		right: 30px;
+	}
+	
+	.part_solution {
+		padding-left: 0.6em;
+		color: red;
+	}
+	
+	.result-O {
+		color: green;
+		font-weight: bold;
+	}
+	
+	.result-X {
+		color: red;
+		font-weight: bold;
+	}
