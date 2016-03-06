@@ -1,0 +1,47 @@
+
+	#score_add {
+		width: 90%;
+		text-align: right;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0px 112px 10px 0px;
+	}
+
+	.score_list {
+		overflow: hidden;
+		width: 90%;
+		margin: 20px 5% 20px 5%;
+		border-bottom: 1px solid #c2c2c2;
+	}
+	
+	.score_list td, .score_list th {
+		height: 3em;
+		vertical-align: middle;
+		border-top: 1px solid #c2c2c2;
+	}
+
+	.score_list .score_id {
+		width: 70px;
+		text-indent: 3em;
+		text-align: center;
+	}
+	
+	.score_list .score_sid {
+		width: 200px;
+		text-indent: 3em;
+	}
+	
+	.score_list .score_point {
+		width: 380px;
+		text-indent: 3em;
+	}
+	
+	.score_list .score_rate {
+		width: 100px;
+		text-align: center;
+	}
+	
+	.score_list .btns {
+		width: 160px;
+		padding-left: 30px;		
+	}

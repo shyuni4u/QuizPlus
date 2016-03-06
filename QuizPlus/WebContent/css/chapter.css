@@ -1,0 +1,66 @@
+
+	#chapter_add {
+		width: 90%;
+		text-align: right;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0px 112px 10px 0px;
+	}
+
+	.chapter_list {
+		overflow: hidden;
+		width: 90%;
+		margin: 20px 5% 20px 5%;
+		border-bottom: 1px solid #c2c2c2;
+	}
+	
+	.chapter_list td, .chapter_list th {
+		height: 3em;
+		vertical-align: middle;
+		border-top: 1px solid #c2c2c2;
+	}
+
+	.chapter_list .chapter_id {
+		width: 70px;
+		text-indent: 3em;
+		text-align: center;
+	}
+	
+	.chapter_list .chapter_title {
+		width: 200px;
+		text-indent: 3em;
+	}
+	
+	.chapter_list .chapter_subtitle {
+		width: 320px;
+		text-indent: 3em;
+	}
+	
+	.chapter_list .chapter_state {
+		width: 100px;
+		text-align: center;
+	}
+	
+	.chapter_list .chapter_avgScore {
+		width: 70px;
+		text-align: center;
+	}
+	
+	.chapter_list .chapter_highScore {
+		width: 50px;
+		text-align: center;
+	}
+	
+	.chapter_list .chapter_lowScore {
+		width: 50px;
+		text-align: center;
+	}
+	.chapter_list .chapter_personnel {
+		width: 70px;
+		text-align: center;
+	}
+	
+	.chapter_list .btns {
+		width: 160px;
+		padding-left: 30px;		
+	}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC
+	"-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+	"http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+	<icon></icon>
+
+	<display-name></display-name>
+
+	<description></description>
+
+	<distributable></distributable>
+
+	<filter>
+		<filter-name>XSS</filter-name>
+		<display-name>XSS</display-name>
+		<filter-class>misc.XssFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>XSS</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+
+	<welcome-file-list>
+		<welcome-file>/</welcome-file>
+	</welcome-file-list><security-constraint>
+		<web-resource-collection>
+			<web-resource-name>All Resources</web-resource-name>
+			<url-pattern>/*</url-pattern>
+			<http-method>GET</http-method>
+			<http-method>POST</http-method>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>QuizPlus</role-name>
+		</auth-constraint>
+	</security-constraint>
+
+	<login-config>
+		<auth-method>DIGEST</auth-method>
+		<realm-name>QuizPlus</realm-name>
+	</login-config>
+
+	<security-role>
+		<role-name>QuizPlus</role-name>
+	</security-role>
+</web-app>

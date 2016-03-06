@@ -1,0 +1,10 @@
+.progress{overflow:hidden;height:25px;margin:10px 0 0;background:url(http://static.naver.com/groupware/2010/bg_progress.gif);border-right:1px solid #e3e3e3;font-family:'�뗭�',dotum;font-size:11px;line-height:15px;letter-spacing:-1px}
+.progress .tit{float:left;position:relative;z-index:1000;width:250px;height:20px;margin:0;padding:5px 0 0;background: #999999;font-size:11px;color:#fff;line-height:15px;text-align:center}
+.progress ol{float:left;margin:0;padding:0}
+.progress li,.progress li span{background:url(http://static.naver.com/groupware/2010/bg_progress_item.gif) no-repeat;font-size:11px;white-space:nowrap}
+.progress li{cursor:pointer;float:left;margin:0 0 0 -13px;padding:0 0 0 13px;background-position:-287px 0}
+.progress li span{display:inline-block;height:20px;padding:5px 28px 0 13px;background-position:100% top}
+.progress li.on{position:relative;z-index:10;background-position:0 100%;color:#fff}
+.progress li.on span{background:url(http://static.naver.com/groupware/2010/bg_progress_item.gif) no-repeat 100% 100%}
+.progress li.last,.progress li.last span{background:none}
+.progress .right{position:absolute;top:6px;right:10px;color:#444}

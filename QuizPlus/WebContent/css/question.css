@@ -1,0 +1,56 @@
+
+	#question_add {
+		width: 90%;
+		text-align: right;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 0px 112px 10px 0px;
+	}
+
+	.question_list {
+		overflow: hidden;
+		width: 90%;
+		margin: 20px 5% 20px 5%;
+		border-bottom: 1px solid #c2c2c2;
+	}
+	
+	.question_list td, .question_list th {
+		height: 3em;
+		vertical-align: middle;
+		border-top: 1px solid #c2c2c2;
+	}
+
+	.question_list .question_id {
+		width: 40px;
+		text-indent: 3em;
+		text-align: center;
+	}
+	
+	.question_list .question_type {
+		width: 100px;
+		text-indent: 3em;
+	}
+	
+	.question_list .question_content {
+		width: 400px;
+		text-indent: 1em;
+	}
+	
+	#question_content_fot_dot {
+		width: 390px;                   /* IE6 needs any width */
+		white-space: nowrap;
+		overflow: hidden;              /* "overflow" value must be different from "visible" */ 
+		-o-text-overflow: ellipsis;    /* Opera under 10.7 */
+		text-overflow:  ellipsis;    /* IE, Safari */
+	}
+	
+	.question_list .question_score {
+		width: 70px;
+		text-indent: 3em;
+		text-align: center;
+	}
+	
+	.question_list .question_btns {
+		width: 95px;
+		padding-left: 30px;		
+	}
